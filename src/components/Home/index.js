@@ -38,6 +38,11 @@ const useStyles = makeStyles((theme) => ({
   mLogo: {
     width: 250,
   },
+  banner: {
+    backgroundColor: "#36473D",
+    minHeight: "100vh",
+    width: "40%",
+  },
 }));
 
 const Home = (props) => {
