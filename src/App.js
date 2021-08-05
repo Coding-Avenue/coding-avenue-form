@@ -12,17 +12,17 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/success" exact="true">
+        <Route path="/success" exact>
           {isFormComplete ? (
             <Confirmation GIF={con} />
           ) : (
             <PageNotFound image={image} />
           )}
         </Route>
-        <Route path="/" exact="true">
+        <Route path="/" exact>
           <Home setIsFormComplete={setIsFormComplete} />
         </Route>
-        <Route path="*" exact="true">
+        <Route path="*" exact>
           <PageNotFound image={image} />
         </Route>
       </Switch>
