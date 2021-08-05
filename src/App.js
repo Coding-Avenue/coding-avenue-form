@@ -22,6 +22,9 @@ function App() {
         <Route path="/home" exact>
           <Home setIsFormComplete={setIsFormComplete} />
         </Route>
+        <Route path="/" exact>
+          <Home setIsFormComplete={setIsFormComplete} />
+        </Route>
         <Route path="*">
           <PageNotFound image={image} />
         </Route>
