@@ -13,11 +13,11 @@ function App() {
     <Router>
       <Switch>
         <Route path="/success" exact="true">
-          {/* {isFormComplete ? ( */}
-          <Confirmation GIF={con} />
-          {/* ) : ( */}
-          {/* <PageNotFound image={image} /> */}
-          {/* )} */}
+          {isFormComplete ? (
+            <Confirmation GIF={con} />
+          ) : (
+            <PageNotFound image={image} />
+          )}
         </Route>
         <Route path="/" exact="true">
           <Home setIsFormComplete={setIsFormComplete} />
