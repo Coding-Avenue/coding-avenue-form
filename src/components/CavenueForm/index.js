@@ -79,12 +79,9 @@ const CavenueForm = () => {
         }}
         validationSchema={SignupSchema}
         onSubmit={(values) => {
-          console.log(values);
-          history.push("/success");
-          // axios.post(url, values).then((response) => {
-          //   console.log(response);
-          //   history.push("/success");
-          // });
+          axios.post(url, values).then((response) => {
+            history.push("/success");
+          });
         }}
       >
         {({ errors, touched, values, handleChange }) => (
