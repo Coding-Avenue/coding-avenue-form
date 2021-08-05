@@ -8,11 +8,11 @@ function App() {
   return (
     <Router>
       <Switch>
+        <Route path="/success" exact>
+          <Confirmation GIF={con} />
+        </Route>
         <Route path="/">
           <Home />
-        </Route>
-        <Route path="/success">
-          <Confirmation GIF={con} />
         </Route>
       </Switch>
     </Router>
