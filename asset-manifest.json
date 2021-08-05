@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coding-avenue-form/static/css/main.77c2b4b5.chunk.css",
-    "main.js": "/coding-avenue-form/static/js/main.9ed9e24b.chunk.js",
-    "main.js.map": "/coding-avenue-form/static/js/main.9ed9e24b.chunk.js.map",
+    "main.js": "/coding-avenue-form/static/js/main.9bfe107f.chunk.js",
+    "main.js.map": "/coding-avenue-form/static/js/main.9bfe107f.chunk.js.map",
     "runtime-main.js": "/coding-avenue-form/static/js/runtime-main.308ee5e4.js",
     "runtime-main.js.map": "/coding-avenue-form/static/js/runtime-main.308ee5e4.js.map",
     "static/js/2.9769502f.chunk.js": "/coding-avenue-form/static/js/2.9769502f.chunk.js",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.308ee5e4.js",
     "static/js/2.9769502f.chunk.js",
     "static/css/main.77c2b4b5.chunk.css",
-    "static/js/main.9ed9e24b.chunk.js"
+    "static/js/main.9bfe107f.chunk.js"
   ]
 }
