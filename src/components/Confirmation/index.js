@@ -49,6 +49,7 @@ const Home = ({ GIF }) => {
     <div className={classes.gifContainer}>
       <img
         src={GIF}
+        alt="Confetti GIF"
         className={classes[isMobile ? "mSuccessGif" : "successGif"]}
       />
       <Box

@@ -10,6 +10,7 @@ import {
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { useHistory } from "react-router-dom";
+import axios from "axios";
 
 const useStyles = makeStyles((theme) => ({
   form: {
@@ -41,6 +42,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const url =
+  "https://sheet.best/api/sheets/441dc814-9741-49e4-a2a0-90fda8a62234";
 const phoneRegExp =
   /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
 const SignupSchema = Yup.object().shape({
@@ -76,8 +79,11 @@ const CavenueForm = () => {
         }}
         validationSchema={SignupSchema}
         onSubmit={(values) => {
-          // same shape as initial values
           console.log(values);
+          // axios.post(url, values).then((response) => {
+          //   console.log(response);
+          //   history.push("/success");
+          // });
           history.push("/success");
         }}
       >
@@ -142,7 +148,7 @@ const CavenueForm = () => {
 
             <Box mb={1} className={classes.inputField}>
               <TextField
-                label="Mobile/Whatsapp"
+                label="Mobile no./Whatsapp no."
                 variant="outlined"
                 name="whatsapp"
                 type="whatsapp"
