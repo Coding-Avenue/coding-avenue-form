@@ -19,7 +19,7 @@ function App() {
             <PageNotFound image={image} />
           )}
         </Route>
-        <Route path="/" exact>
+        <Route path="/home" exact>
           <Home setIsFormComplete={setIsFormComplete} />
         </Route>
         <Route path="*" exact>
