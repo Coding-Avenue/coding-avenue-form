@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coding-avenue-form/static/css/main.77c2b4b5.chunk.css",
-    "main.js": "/coding-avenue-form/static/js/main.d4f4cc74.chunk.js",
-    "main.js.map": "/coding-avenue-form/static/js/main.d4f4cc74.chunk.js.map",
+    "main.js": "/coding-avenue-form/static/js/main.d6aed2dd.chunk.js",
+    "main.js.map": "/coding-avenue-form/static/js/main.d6aed2dd.chunk.js.map",
     "runtime-main.js": "/coding-avenue-form/static/js/runtime-main.423cf43b.js",
     "runtime-main.js.map": "/coding-avenue-form/static/js/runtime-main.423cf43b.js.map",
     "static/js/2.88054a36.chunk.js": "/coding-avenue-form/static/js/2.88054a36.chunk.js",
@@ -13,13 +13,12 @@
     "static/css/main.77c2b4b5.chunk.css.map": "/coding-avenue-form/static/css/main.77c2b4b5.chunk.css.map",
     "static/js/2.88054a36.chunk.js.LICENSE.txt": "/coding-avenue-form/static/js/2.88054a36.chunk.js.LICENSE.txt",
     "static/media/con.f8dcfba4.gif": "/coding-avenue-form/static/media/con.f8dcfba4.gif",
-    "static/media/logo.de40d53d.png": "/coding-avenue-form/static/media/logo.de40d53d.png",
-    "static/media/logoMobile.1ea5b3b7.png": "/coding-avenue-form/static/media/logoMobile.1ea5b3b7.png"
+    "static/media/logo.de40d53d.png": "/coding-avenue-form/static/media/logo.de40d53d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.423cf43b.js",
     "static/js/2.88054a36.chunk.js",
     "static/css/main.77c2b4b5.chunk.css",
-    "static/js/main.d4f4cc74.chunk.js"
+    "static/js/main.d6aed2dd.chunk.js"
   ]
 }
