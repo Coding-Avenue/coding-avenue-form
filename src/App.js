@@ -8,10 +8,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact>
+        <Route path="/">
           <Home />
         </Route>
-        <Route path="/success" exact>
+        <Route path="/success">
           <Confirmation GIF={con} />
         </Route>
       </Switch>
