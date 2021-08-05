@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/coding-avenue-form/static/css/main.77c2b4b5.chunk.css",
-    "main.js": "/coding-avenue-form/static/js/main.7dfb0cd1.chunk.js",
-    "main.js.map": "/coding-avenue-form/static/js/main.7dfb0cd1.chunk.js.map",
-    "runtime-main.js": "/coding-avenue-form/static/js/runtime-main.308ee5e4.js",
-    "runtime-main.js.map": "/coding-avenue-form/static/js/runtime-main.308ee5e4.js.map",
-    "static/js/2.4b6afd3a.chunk.js": "/coding-avenue-form/static/js/2.4b6afd3a.chunk.js",
-    "static/js/2.4b6afd3a.chunk.js.map": "/coding-avenue-form/static/js/2.4b6afd3a.chunk.js.map",
-    "static/js/3.16cf39b1.chunk.js": "/coding-avenue-form/static/js/3.16cf39b1.chunk.js",
-    "static/js/3.16cf39b1.chunk.js.map": "/coding-avenue-form/static/js/3.16cf39b1.chunk.js.map",
-    "index.html": "/coding-avenue-form/index.html",
-    "static/css/main.77c2b4b5.chunk.css.map": "/coding-avenue-form/static/css/main.77c2b4b5.chunk.css.map",
-    "static/js/2.4b6afd3a.chunk.js.LICENSE.txt": "/coding-avenue-form/static/js/2.4b6afd3a.chunk.js.LICENSE.txt",
-    "static/media/404.499ec271.png": "/coding-avenue-form/static/media/404.499ec271.png",
-    "static/media/con.f8dcfba4.gif": "/coding-avenue-form/static/media/con.f8dcfba4.gif",
-    "static/media/logo.de40d53d.png": "/coding-avenue-form/static/media/logo.de40d53d.png"
+    "main.css": "/coding-avenue-form/home/static/css/main.77c2b4b5.chunk.css",
+    "main.js": "/coding-avenue-form/home/static/js/main.4f5cd933.chunk.js",
+    "main.js.map": "/coding-avenue-form/home/static/js/main.4f5cd933.chunk.js.map",
+    "runtime-main.js": "/coding-avenue-form/home/static/js/runtime-main.945fe963.js",
+    "runtime-main.js.map": "/coding-avenue-form/home/static/js/runtime-main.945fe963.js.map",
+    "static/js/2.4b6afd3a.chunk.js": "/coding-avenue-form/home/static/js/2.4b6afd3a.chunk.js",
+    "static/js/2.4b6afd3a.chunk.js.map": "/coding-avenue-form/home/static/js/2.4b6afd3a.chunk.js.map",
+    "static/js/3.16cf39b1.chunk.js": "/coding-avenue-form/home/static/js/3.16cf39b1.chunk.js",
+    "static/js/3.16cf39b1.chunk.js.map": "/coding-avenue-form/home/static/js/3.16cf39b1.chunk.js.map",
+    "index.html": "/coding-avenue-form/home/index.html",
+    "static/css/main.77c2b4b5.chunk.css.map": "/coding-avenue-form/home/static/css/main.77c2b4b5.chunk.css.map",
+    "static/js/2.4b6afd3a.chunk.js.LICENSE.txt": "/coding-avenue-form/home/static/js/2.4b6afd3a.chunk.js.LICENSE.txt",
+    "static/media/404.499ec271.png": "/coding-avenue-form/home/static/media/404.499ec271.png",
+    "static/media/con.f8dcfba4.gif": "/coding-avenue-form/home/static/media/con.f8dcfba4.gif",
+    "static/media/logo.de40d53d.png": "/coding-avenue-form/home/static/media/logo.de40d53d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.308ee5e4.js",
+    "static/js/runtime-main.945fe963.js",
     "static/js/2.4b6afd3a.chunk.js",
     "static/css/main.77c2b4b5.chunk.css",
-    "static/js/main.7dfb0cd1.chunk.js"
+    "static/js/main.4f5cd933.chunk.js"
   ]
 }
