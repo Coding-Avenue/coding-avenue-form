@@ -63,7 +63,7 @@ const SignupSchema = Yup.object().shape({
     .max(10, "to long"),
 });
 
-const CavenueForm = () => {
+const CavenueForm = ({ setIsFormComplete }) => {
   const classes = useStyles();
   const history = useHistory();
 
@@ -82,8 +82,10 @@ const CavenueForm = () => {
           console.log(values);
           // axios.post(url, values).then((response) => {
           //   console.log(response);
+          //   setIsFormComplete(true);
           //   history.push("/success");
           // });
+          setIsFormComplete(true);
           history.push("/success");
         }}
       >

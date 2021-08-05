@@ -21,10 +21,12 @@ const useStyles = makeStyles((theme) => ({
   },
   mSuccessText: {
     fontWeight: 700,
+    textAlign: "center",
   },
   successText: {
     fontWeight: 800,
     fontSize: "1.4rem",
+    textAlign: "center",
   },
 }));
 
@@ -58,7 +60,9 @@ const Home = ({ GIF }) => {
         ${classes.blueText}
         `}
       >
-        We'll get back to you!!
+        Thank you for connecting
+        <br />
+        We will get back to you shortly!
       </Box>
     </div>
   );

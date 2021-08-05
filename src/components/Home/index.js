@@ -68,7 +68,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const Home = (props) => {
+const Home = ({ setIsFormComplete }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   const handleWindowSizeChange = () => {
@@ -94,7 +94,7 @@ const Home = (props) => {
         </Box>
         <Box className={classes.mForm}>
           <Box className={classes.mChildren}>
-            <CavenueForm />
+            <CavenueForm setIsFormComplete={setIsFormComplete} />
           </Box>
         </Box>
       </div>
@@ -109,7 +109,7 @@ const Home = (props) => {
       </Box>
       <Box className={classes.formContainer}>
         <Box className={classes.form}>
-          <CavenueForm />
+          <CavenueForm setIsFormComplete={setIsFormComplete} />
         </Box>
       </Box>
     </div>
